@@ -1,7 +1,6 @@
 body {
   /* position: relative; */
-  display: flex;
-  flex-direction: column;
+  display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: [full-start] auto [main-start] minmax(0, 1fr) [main-end] auto [full-end];
 }
