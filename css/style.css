@@ -202,16 +202,26 @@ main {
 .client-container {
   display: flex;
   flex-direction: column;
-  text-align: center;
+
   /* flex-wrap: wrap; */
 }
 .clients {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 }
-.gallery-container {
+.first-gallery {
+  display: flex;
+  /* flex-wrap: wrap; */
   grid-row: 7;
+  grid-column: 1 / -1;
+}
+
+.second-gallery {
+  display: flex;
+  grid-row: 8;
+  grid-column: 1 / -1;
 }
 @media (min-width: 35rem) {
   .transform-container {
@@ -229,5 +239,12 @@ main {
   }
   .client-container {
     flex-direction: row;
+  }
+  .first-gallery {
+    grid-column: 1;
+  }
+  .second-gallery {
+    grid-row: 7;
+    grid-column: 2;
   }
 }
