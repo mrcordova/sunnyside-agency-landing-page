@@ -167,7 +167,21 @@ main {
   grid-row: 1 / -1;
   grid-column: 1 / -1;
 }
+.photography-container {
+  display: grid;
+  grid-row: 4;
+  grid-column: 2;
+}
+.photography-container > div {
+  grid-row: 1;
+  grid-column: 1;
+  z-index: 1;
+}
 
+.photography-container > picture {
+  grid-row: 1;
+  grid-column: 1;
+}
 @media (min-width: 35rem) {
   .transform-container {
     flex-direction: row;
