@@ -45,6 +45,8 @@ header {
   grid-row: 1;
   grid-column: 1 / -1;
   z-index: 300;
+
+  color: var(--white);
 }
 nav {
   display: flex;
@@ -83,13 +85,14 @@ main {
   /* justify-self: center; */
   align-items: center;
   margin-block: auto;
-
+  color: var(--white);
   /* justify-content: center;
    */
   gap: 5.5rem;
 }
 .header > h1 {
-  font-size: 4.7rem;
+  font-size: 3.7rem;
+  letter-spacing: 0.6rem;
   /* margin-block-start: 12rem; */
 }
 .header > img {
