@@ -23,7 +23,13 @@ header {
   grid-column: 1 / -1;
   z-index: 300;
 }
-
+nav {
+  display: flex;
+}
+nav > menu {
+  margin-inline-start: auto;
+  display: flex;
+}
 main {
   z-index: 1;
   display: grid;
@@ -33,6 +39,7 @@ main {
   grid-template-rows: [main-row-start] repeat(auto, minmax(0, 1fr)) [main-row-end];
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
+
 .header {
   z-index: 1;
   grid-row: 1;
@@ -42,10 +49,11 @@ main {
   /* justify-self: center; */
   align-items: center;
   justify-content: center;
-  gap: 2rem;
+  gap: 5.5rem;
 }
 .header > h1 {
   font-size: 3rem;
+  /* margin-block-start: 12rem; */
 }
 .header > img {
   /* margin-inline: auto; */
