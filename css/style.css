@@ -159,6 +159,10 @@ main {
   /* grid-template-columns: 1fr; */
 }
 .graphic-design-container > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
   grid-row: 1 / -1;
   grid-column: 1 / -1;
   z-index: 1;
@@ -173,6 +177,10 @@ main {
   grid-column: 2;
 }
 .photography-container > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
   grid-row: 1;
   grid-column: 1;
   z-index: 1;
