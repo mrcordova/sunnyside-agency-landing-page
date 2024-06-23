@@ -231,6 +231,10 @@ footer {
   flex-direction: column;
   background-color: var(--dark-moderate-cyan-footer);
 }
+
+.footer-logo {
+  fill: var(--dark-desaturated-cyan-graphic-design-text);
+}
 .footer-choices {
   display: flex;
 }
