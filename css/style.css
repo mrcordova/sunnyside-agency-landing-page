@@ -353,18 +353,33 @@ footer {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  gap: 2rem;
+  color: hsl(167.67, 45.34%, 31.57%);
+  /* padding-block: 8.8rem; */
   /* background-color: hsl(164.62, 43.82%, 65.1%); */
   background-color: hsl(151.7, 36.55%, 71.57%);
 }
+
 .footer-logo {
   fill: hsl(167.67, 45.34%, 31.57%);
+
   /* fill: var(--dark-moderate-cyan-footer); */
 }
 .footer-choices {
+  padding: 0;
   display: flex;
+  gap: 3.6rem;
+  font-size: 1.1rem;
 }
 .footer-socials {
   display: flex;
+}
+.footer-choices > li {
+  list-style: none;
+}
+.footer-choices > li > a {
+  text-decoration: none;
+  color: inherit;
 }
 @media (min-width: 35rem) {
   .transform-container {
