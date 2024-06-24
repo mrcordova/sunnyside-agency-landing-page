@@ -289,6 +289,8 @@ main {
   align-items: center;
   grid-row: 6;
   grid-column: 1 / -1;
+  gap: 4.8rem;
+  /* margin-inline: 10rem; */
   /* margin-block: 15.6rem; */
 }
 .client-testimonials-container > h2 {
@@ -299,16 +301,23 @@ main {
 .client-container {
   display: flex;
   flex-direction: column;
+  gap: 2.5rem;
 }
 .clients {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
+  gap: 3.8rem;
 }
 .clients > img {
   width: 4.5rem;
   border-radius: 3rem;
+}
+.clients > p {
+  font-size: 1.1rem;
+  width: 34ch;
+  line-height: 1.8;
 }
 .first-gallery {
   display: flex;
