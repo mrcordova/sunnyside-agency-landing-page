@@ -48,20 +48,29 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-inline: 2.4rem 2.9rem;
   grid-row: 1 / 1;
   grid-column: 1 / -1;
   z-index: 2;
   height: fit-content;
   color: var(--white);
+  /* Mobile */
+  padding-inline: 1rem 1rem;
+  padding-block: 1.8rem;
+  /* Desktop */
+  /* padding-inline: 2.4rem 2.9rem; */
+  /* padding-block: 2.1rem; */
 }
 #desktop-nav {
   display: none;
   align-items: center;
-
-  padding-block: 2.1rem;
 }
-
+#mobile-nav:popover-open {
+  border: 0;
+}
+#mobile-nav:popover-open > menu {
+  display: flex;
+  flex-direction: column;
+}
 nav > menu {
   margin-inline-start: auto;
   display: flex;
@@ -129,7 +138,10 @@ main {
 }
 
 .logo {
-  width: 10.7rem;
+  /* Mobile */
+  width: 7.75rem;
+  /* Desktop */
+  /* width: 10.7rem; */
 }
 
 .img-header {
