@@ -291,7 +291,7 @@ main {
   grid-column: 1 / -1;
   gap: 4.8rem;
   /* margin-inline: 10rem; */
-  /* margin-block: 15.6rem; */
+  margin-block: 10rem 10.2rem;
 }
 .client-testimonials-container > h2 {
   color: var(--dark-grayish-blue);
@@ -324,11 +324,16 @@ main {
 .client-text {
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 0.3rem;
+  margin-block-start: 0.5rem;
+}
+.client-text > h3 {
+  margin-inline-end: 1rem;
 }
 .client-text > p {
   color: var(--dark-grayish-blue);
-  font-size: 0.9rem;
+  font-size: 0.88rem;
+  margin-inline-end: 1rem;
 }
 .first-gallery {
   display: flex;
