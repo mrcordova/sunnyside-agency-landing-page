@@ -28,13 +28,25 @@
   </head>
   <body class="barlow-semibold">
     <header>
-      <nav>
-        <img class="logo" src="images/logo.svg" alt="sunnyside" />
+      <img class="logo" src="images/logo.svg" alt="sunnyside" />
+      <nav id="desktop-nav">
         <menu>
           <li><a href="#">About</a></li>
           <li><a href="#">Services</a></li>
           <li><a href="#">Projects</a></li>
           <li class="contact-li fraunces-700"><a href="#">CONTACT</a></li>
+        </menu>
+      </nav>
+      <!-- <img class="logo" src="images/logo.svg" alt="sunnyside" /> -->
+      <button id="hamburger-btn" popovertarget="mobile-nav">
+        <img src="./images/icon-hamburger.svg" alt="icon-hamburger" />
+      </button>
+      <nav id="mobile-nav" popover>
+        <menu>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Contact</a></li>
         </menu>
       </nav>
     </header>
