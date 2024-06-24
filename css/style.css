@@ -93,7 +93,7 @@ main {
 .contact-li:hover {
   cursor: pointer;
   color: var(--white);
-  background-color: hsl(from var(--very-dark-desaturated-blue) h s l / 0.5);
+  background-color: hsl(from var(--white) h s l / 0.3);
 }
 .header {
   z-index: 1;
