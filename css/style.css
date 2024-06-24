@@ -90,6 +90,11 @@ main {
   padding-block: 1rem;
   border-radius: 2rem;
 }
+.contact-li:hover {
+  cursor: pointer;
+  color: var(--white);
+  background-color: hsl(from var(--very-dark-desaturated-blue) h s l / 0.5);
+}
 .header {
   z-index: 1;
   grid-row: 1;
@@ -176,9 +181,9 @@ main {
   width: 11ch;
   /* z-index: 3; */
 }
-.transform-text-container > button:hover,
-.stand-out-text-container > button:hover {
+.transform-text-container > button:hover {
   cursor: pointer;
+  box-shadow: inset 0px -10px 0px 0px hsl(from var(--yellow) h s l / 1);
 }
 
 .transform-container > picture {
@@ -219,6 +224,10 @@ main {
   font-size: 1rem;
   margin-inline-start: 7.1rem;
   width: 11ch;
+}
+.stand-out-text-container > button:hover {
+  cursor: pointer;
+  box-shadow: inset 0px -10px 0px 0px hsl(from var(--soft-red) h s l / 1);
 }
 
 .stand-out-container > picture {
@@ -376,12 +385,19 @@ footer {
   gap: 1.75rem;
   margin-block-start: 3.3rem;
 }
+.footer-socials > svg > path:hover {
+  fill: var(--white);
+  cursor: pointer;
+}
 .footer-choices > li {
   list-style: none;
 }
 .footer-choices > li > a {
   text-decoration: none;
   color: inherit;
+}
+.footer-choices > li > a:hover {
+  color: var(--white);
 }
 @media (min-width: 35rem) {
   .transform-container {
