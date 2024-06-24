@@ -60,8 +60,8 @@ nav > menu {
   margin-inline-start: auto;
   display: flex;
   align-items: center;
-
-  gap: 2rem;
+  padding: 0;
+  gap: 3.05rem;
 }
 nav > menu > li {
   list-style: none;
@@ -85,7 +85,7 @@ main {
   background-color: var(--white);
   color: black;
   font-size: 0.97rem;
-  padding-inline: 1.8rem;
+  padding-inline: 1.9rem;
   padding-block: 1rem;
   border-radius: 2rem;
 }
