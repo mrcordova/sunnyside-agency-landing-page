@@ -318,6 +318,17 @@ main {
   font-size: 1.1rem;
   width: 34ch;
   line-height: 1.8;
+  color: var(--very-dark-desaturated-blue);
+}
+
+.client-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.client-text > p {
+  color: var(--dark-grayish-blue);
+  font-size: 0.9rem;
 }
 .first-gallery {
   display: flex;
