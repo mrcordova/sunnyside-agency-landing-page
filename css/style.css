@@ -291,11 +291,14 @@ main {
   grid-column: 1 / -1;
   /* margin-block: 15.6rem; */
 }
+.client-testimonials-container > h2 {
+  color: var(--dark-grayish-blue);
+  font-size: 1.2rem;
+  letter-spacing: 0.35rem;
+}
 .client-container {
   display: flex;
   flex-direction: column;
-
-  /* flex-wrap: wrap; */
 }
 .clients {
   display: flex;
