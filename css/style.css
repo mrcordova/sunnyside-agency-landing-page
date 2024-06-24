@@ -53,7 +53,7 @@ header {
 nav {
   display: flex;
   align-items: center;
-  padding-inline: 2rem 2.5rem;
+  padding-inline: 2.4rem 2.9rem;
   padding-block: 2.1rem;
 }
 nav > menu {
