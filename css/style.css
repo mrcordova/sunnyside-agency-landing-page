@@ -369,51 +369,80 @@ main {
   align-items: center;
   grid-row: 6;
   grid-column: 1 / -1;
-  gap: 4.8rem;
-  /* margin-inline: 10rem; */
-  margin-block: 10rem 10.2rem;
+  /* Mobile */
+  gap: 3.8rem;
+  margin-block: 4rem 5.5rem;
+  /* Desktp */
+  /* gap: 4.8rem; */
+  /* margin-block: 10rem 10.2rem; */
 }
 .client-testimonials-container > h2 {
   color: var(--dark-grayish-blue);
-  font-size: 1.2rem;
-  letter-spacing: 0.35rem;
+  /* Mobile */
+  font-size: 1rem;
+  letter-spacing: 0.25rem;
+  /* Desktop */
+  /* font-size: 1.2rem; */
+  /* letter-spacing: 0.35rem; */
 }
 .client-container {
   display: flex;
   flex-direction: column;
-  gap: 2.5rem;
+  /* Mobile */
+  gap: 4rem;
+  /* Desktop */
+  /* gap: 2.5rem; */
 }
 .clients {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  gap: 3.8rem;
+  /* Mobile */
+  gap: 2rem;
+  /* Desktop */
+  /* gap: 3.8rem; */
 }
 .clients > img {
   width: 4.5rem;
   border-radius: 3rem;
 }
 .clients > p {
-  font-size: 1.1rem;
-  width: 34ch;
-  line-height: 1.8;
   color: var(--very-dark-desaturated-blue);
+  /* Mobile */
+  font-size: 1.1rem;
+  width: 32ch;
+  line-height: 1.85;
+  /* DEsktop */
+  /* font-size: 1.1rem; */
+  /* width: 34ch; */
+  /* line-height: 1.8; */
 }
 
 .client-text {
   display: flex;
   flex-direction: column;
+  /* Mobile */
   gap: 0.3rem;
-  margin-block-start: 0.5rem;
+  margin-block-start: 0rem;
+  /* Desktop */
+  /* gap: 0.3rem; */
+  /* margin-block-start: 0.5rem; */
 }
 .client-text > h3 {
-  margin-inline-end: 1rem;
+  /* Mobile */
+  margin-inline-end: 0rem;
+  /* Desktop */
+  /* margin-inline-end: 1rem; */
 }
 .client-text > p {
   color: var(--dark-grayish-blue);
+  /* Mobile */
   font-size: 0.88rem;
-  margin-inline-end: 1rem;
+  margin-inline-end: 0rem;
+  /* Desktop */
+  /* font-size: 0.88rem; */
+  /* margin-inline-end: 1rem; */
 }
 .first-gallery {
   display: flex;
