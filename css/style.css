@@ -276,12 +276,15 @@ main {
 
 .transform-text-container > p {
   color: var(--dark-grayish-blue);
-  /* Mobile */
-  text-align: center;
-  margin-inline-start: 1.8rem;
+  margin-inline-start: clamp(1.8rem, -1.2282rem + 12.9202vw, 10.4rem);
+  line-height: 1.7;
   font-size: 1.1rem;
   width: 32ch;
-  line-height: 1.7;
+  text-align: center;
+  /* Mobile */
+  /* margin-inline-start: 1.8rem; */
+  /* font-size: 1.1rem; */
+  /* line-height: 1.7; */
   /* Desktop */
   /* margin-inline-start: 10.4rem; */
   /* font-size: 1.1rem; */
@@ -292,12 +295,17 @@ main {
 .transform-text-container > button {
   text-align: center;
   box-shadow: inset 0px -10px 0px 0px hsl(from var(--yellow) h s l / 0.3);
-  /* Mobile */
   font-size: 1rem;
-  margin-block-start: 0.5rem;
-  margin-inline-start: 7.6rem;
+  margin-block-start: clamp(0rem, 0.6761rem + -0.7512vw, 0.5rem);
+  margin-inline-start: clamp(7.6rem, 6.5613rem + 4.4319vw, 10.55rem);
+  margin-block-end: clamp(0rem, 5.8141rem + -6.4601vw, 4.3rem);
   width: 11ch;
-  margin-block-end: 4.3rem;
+  /* Mobile */
+  /* font-size: 1rem; */
+  /* margin-block-start: 0.5rem; */
+  /* margin-inline-start: 7.6rem; */
+  /* width: 11ch; */
+  /* margin-block-end: 4.3rem; */
   /* Desktop */
   /* font-size: 1rem; */
   /* margin-inline-start: 10.55rem; */
@@ -587,6 +595,10 @@ footer {
   }
   .transform-text-container > h2 {
     text-align: left;
+  }
+  .transform-text-container > p {
+    text-align: left;
+    width: 45ch;
   }
   .stand-out-container {
     flex-direction: row-reverse;
