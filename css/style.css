@@ -249,28 +249,52 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 2.3rem;
+  /* Mobile */
+  gap: 1.8rem;
+  /* Desktop */
+  /* gap: 2.3rem; */
 }
 .stand-out-text-container > h2 {
-  margin-inline-start: 7rem;
-  font-size: 2.55rem;
+  /* Mobile */
+  text-align: center;
+  margin-block-start: 4rem;
+  margin-inline-start: 2.3rem;
+  font-size: 2rem;
   line-height: 1.2;
-  width: 15ch;
+  width: 13ch;
+  /* Desktop */
+  /* margin-inline-start: 7rem; */
+  /* font-size: 2.55rem; */
+  /* line-height: 1.2; */
+  /* width: 15ch; */
 }
 .stand-out-text-container > p {
   color: var(--dark-grayish-blue);
-  margin-inline-start: 7rem;
+  /* Mobile */
+  text-align: center;
+  margin-inline-start: 1.7rem;
   font-size: 1.1rem;
-  width: 45ch;
+  width: 32ch;
   line-height: 1.7;
+  /* Desktop */
+  /* margin-inline-start: 7rem; */
+  /* font-size: 1.1rem; */
+  /* width: 45ch; */
+  /* line-height: 1.7; */
 }
 
 .stand-out-text-container > button {
   text-align: center;
   box-shadow: inset 0px -10px 0px 0px hsl(from var(--soft-red) h s l / 0.3);
+  /* Mobile */
   font-size: 1rem;
-  margin-inline-start: 7.1rem;
+  margin-inline-start: 7.6rem;
   width: 11ch;
+  margin-block-end: 4.1rem;
+  /* Desktop */
+  /* font-size: 1rem; */
+  /* margin-inline-start: 7.1rem; */
+  /* width: 11ch; */
 }
 .stand-out-text-container > button:hover {
   cursor: pointer;
