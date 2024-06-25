@@ -177,34 +177,56 @@ main {
   flex: 1;
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
+
   justify-content: center;
-  gap: 2.3rem;
-  /* margin: auto; */
+  /* Mobile */
+  gap: 1.5rem;
+  /* Desktop */
+  /* gap: 2.3rem; */
 }
 .transform-text-container > h2 {
-  margin-inline-start: 10.4rem;
-  font-size: 2.55rem;
+  /* Mobile */
+  text-align: center;
+  margin-block-start: 4rem;
+  margin-inline-start: 2rem;
+  font-size: 2rem;
   width: 13.5ch;
   line-height: 1.2;
+  /* Desktop */
+  /* margin-inline-start: 10.4rem; */
+  /* font-size: 2.55rem; */
+  /* width: 13.5ch; */
+  /* line-height: 1.2; */
 }
 
 .transform-text-container > p {
   color: var(--dark-grayish-blue);
-  margin-inline-start: 10.4rem;
+  /* Mobile */
+  text-align: center;
+  margin-inline-start: 1.8rem;
   font-size: 1.1rem;
-  width: 45ch;
+  width: 32ch;
   line-height: 1.7;
+  /* Desktop */
+  /* margin-inline-start: 10.4rem; */
+  /* font-size: 1.1rem; */
+  /* width: 45ch; */
+  /* line-height: 1.7; */
 }
 
 .transform-text-container > button {
-  /* align-self: flex-start; */
   text-align: center;
   box-shadow: inset 0px -10px 0px 0px hsl(from var(--yellow) h s l / 0.3);
+  /* Mobile */
   font-size: 1rem;
-  margin-inline-start: 10.55rem;
+  margin-block-start: 0.5rem;
+  margin-inline-start: 7.6rem;
   width: 11ch;
-  /* z-index: 3; */
+  margin-block-end: 4.3rem;
+  /* Desktop */
+  /* font-size: 1rem; */
+  /* margin-inline-start: 10.55rem; */
+  /* width: 11ch; */
 }
 .transform-text-container > button:hover {
   cursor: pointer;
