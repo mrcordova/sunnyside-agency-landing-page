@@ -332,19 +332,25 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  gap: clamp(1.8rem, 1.6239rem + 0.7512vw, 2.3rem);
   /* Mobile */
-  gap: 1.8rem;
+  /* gap: 1.8rem; */
   /* Desktop */
   /* gap: 2.3rem; */
 }
 .stand-out-text-container > h2 {
-  /* Mobile */
-  text-align: center;
-  margin-block-start: 4rem;
-  margin-inline-start: 2.3rem;
-  font-size: 2rem;
+  margin-block-start: clamp(0rem, 5.4085rem + -6.0094vw, 4rem);
+  margin-inline-start: clamp(2.3rem, 0.6451rem + 7.061vw, 7rem);
+  font-size: clamp(2rem, 1.8063rem + 0.8263vw, 2.55rem);
   line-height: 1.2;
   width: 13ch;
+  /* Mobile */
+  text-align: center;
+  /* margin-block-start: 4rem; */
+  /* margin-inline-start: 2.3rem; */
+  /* font-size: 2rem; */
+  /* line-height: 1.2; */
+  /* width: 13ch; */
   /* Desktop */
   /* margin-inline-start: 7rem; */
   /* font-size: 2.55rem; */
@@ -353,12 +359,15 @@ main {
 }
 .stand-out-text-container > p {
   color: var(--dark-grayish-blue);
+  margin-inline-start: clamp(1.7rem, -0.1662rem + 7.9624vw, 7rem);
+  font-size: 1.1rem;
+  line-height: 1.7;
+  width: 32ch;
   /* Mobile */
   text-align: center;
-  margin-inline-start: 1.7rem;
-  font-size: 1.1rem;
-  width: 32ch;
-  line-height: 1.7;
+  /* margin-inline-start: 1.7rem; */
+  /* font-size: 1.1rem; */
+  /* line-height: 1.7; */
   /* Desktop */
   /* margin-inline-start: 7rem; */
   /* font-size: 1.1rem; */
@@ -369,11 +378,15 @@ main {
 .stand-out-text-container > button {
   text-align: center;
   box-shadow: inset 0px -10px 0px 0px hsl(from var(--soft-red) h s l / 0.3);
-  /* Mobile */
   font-size: 1rem;
-  margin-inline-start: 7.6rem;
+  margin-inline-start: clamp(7.1rem, 7.7761rem + -0.7512vw, 7.6rem);
+  margin-block-end: clamp(0rem, 5.5437rem + -6.1596vw, 4.1rem);
   width: 11ch;
-  margin-block-end: 4.1rem;
+  /* Mobile */
+  /* font-size: 1rem; */
+  /* margin-inline-start: 7.6rem; */
+  /* width: 11ch; */
+  /* margin-block-end: 4.1rem; */
   /* Desktop */
   /* font-size: 1rem; */
   /* margin-inline-start: 7.1rem; */
@@ -452,6 +465,7 @@ main {
   align-items: center;
   grid-row: 6;
   grid-column: 1 / -1;
+
   /* Mobile */
   gap: 3.8rem;
   margin-block: 4rem 5.5rem;
@@ -602,6 +616,14 @@ footer {
   }
   .stand-out-container {
     flex-direction: row-reverse;
+  }
+  .stand-out-text-container > h2 {
+    width: 15ch;
+    text-align: left;
+  }
+  .stand-out-text-container > p {
+    text-align: left;
+    width: 45ch;
   }
   .graphic-design-container {
     grid-column: 1;
