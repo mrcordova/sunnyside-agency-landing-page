@@ -73,6 +73,7 @@ header {
   top: 6.4rem;
   right: 0;
   width: 91.5%;
+  min-width: 16.757rem;
   margin-inline: auto;
   padding: 1.6rem;
 }
@@ -97,8 +98,10 @@ header {
   height: 0px;
   width: 0px;
   top: 2.9rem;
-  /* 559px */
-  right: 0;
+  /* right: clamp(-0.55rem, 1.1387rem + -2.5116vw, -0.01rem); */
+  right: clamp(-0.55rem, -1.1387rem + 2.5116vw, -0.01rem);
+  /* 719px */
+  /* right: -0.01rem; */
   /* 375px */
   /* right: -0.55rem; */
   border-width: 2rem;
