@@ -66,6 +66,29 @@ header {
 }
 #mobile-nav:popover-open {
   border: 0;
+  top: 6.4rem;
+  width: 87.5%;
+  margin-inline: auto;
+  /* position: relative; */
+}
+#mobile-nav {
+  position: relative;
+}
+#hamburger-btn {
+  position: relative;
+}
+
+#hamburger-btn:has(+ #mobile-nav:popover-open)::after {
+  content: "";
+  position: absolute;
+  height: 0px;
+  width: 0px;
+  top: 2.9rem;
+  right: 0.02rem; /* 1px buffer for zooming problems while rendering*/
+  border-width: 2rem;
+  border-color: transparent white transparent transparent;
+  /* border-color: red; */
+  border-style: solid;
 }
 #mobile-nav:popover-open > menu {
   display: flex;
