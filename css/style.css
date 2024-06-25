@@ -462,11 +462,14 @@ footer {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 2rem;
   color: hsl(167.67, 45.34%, 31.57%);
-  padding-block: 4rem 4.8rem;
-  /* background-color: hsl(164.62, 43.82%, 65.1%); */
   background-color: hsl(151.7, 36.55%, 71.57%);
+  /* Mobile */
+  padding-block: 3.6rem 5rem;
+  gap: 2rem;
+  /* Desktop */
+  /* padding-block: 4rem 4.8rem; */
+  /* gap: 2rem; */
 }
 
 .footer-logo {
