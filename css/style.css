@@ -67,7 +67,8 @@ header {
 #mobile-nav:popover-open {
   border: 0;
   top: 6.4rem;
-  width: 87.5%;
+  right: 0;
+  width: 91.5%;
   margin-inline: auto;
   padding: 1.6rem;
   /* position: relative; */
@@ -80,6 +81,10 @@ header {
   gap: 2rem;
   /* position: relative; */
 }
+
+#mobile-menu {
+  position: relative;
+}
 #hamburger-btn {
   position: relative;
 }
@@ -90,12 +95,25 @@ header {
   height: 0px;
   width: 0px;
   top: 2.9rem;
-  right: 0.02rem; /* 1px buffer for zooming problems while rendering*/
+  /* 559px */
+  right: 0;
+  /* 375px */
+  /* right: -0.55rem; */
   border-width: 2rem;
   border-color: transparent white transparent transparent;
-  /* border-color: red; */
   border-style: solid;
 }
+/* #mobile-nav:popover-open::after {
+  content: "";
+  position: absolute;
+  height: 0px;
+  width: 0px;
+  top: -2rem;
+  right: 0.02rem;
+  border-width: 2rem;
+  border-color: transparent white transparent transparent;
+  border-style: solid;
+} */
 #mobile-nav:popover-open > menu {
   display: flex;
   flex-direction: column;
@@ -120,7 +138,7 @@ header {
   padding: 0;
   gap: 3.05rem;
 }
-#desktop > menu > li {
+#desktop-nav > menu > li {
   list-style: none;
   font-size: 1.1rem;
 }
